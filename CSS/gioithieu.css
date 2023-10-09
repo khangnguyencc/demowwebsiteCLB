@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+    box-sizing: border-box;
+
+}
+
+.main{
+    width: 100%;
+    /* padding-top: 10rem; */
+}
+.main .main_section1{
+    width: 85%;
+    height: auto;
+    margin: 0em auto;
+    padding: 5em 0 ;
+}
+
+.main .main_section1 .main_section1_text {
+    text-align: center;
+    padding: 0em 0em 2em 0 ;
+    font-size: 1.2vw;
+}
+
+.main .main_section1 .main_section1_content{
+    width: 100%;
+    margin-top: 2em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .main_section1 .main_section1_content .main_section1_content_text {
+    width: 47%;
+    text-align: justify;
+    margin-top: 1.5em;
+    font-size: 1.15vw;
+    /* background-color: red; */
+}
+.main .main_section1 .main_section1_content .main_section1_content_text p {
+    margin-bottom: 1rem;
+}
+.main .main_section1 .main_section1_content .main_section1_content_text .kk {
+    font-weight: bold;
+}
+
+.main .main_section1 .main_section1_content .main_section1_content_img {
+    width: 50%;
+    /* background-color: red; */
+}
+.main .main_section1 .main_section1_content .main_section1_content_img img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+.main .main_section2 {
+    width: 100%;
+    padding: 4.2rem 0 5.5rem ;
+    background-color: #EAEEEF;
+
+}
+
+.main .main_section2 .main_section2_text{
+    text-align: center;
+    padding: 1em 0 1em 0 ;
+    font-size: 1.2vw;
+}
+
+.main .main_section2 .main_section2_content {
+    width: 100%;
+    height: auto;
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main .main_section2 .main_section2_content .main_section2_content_h1 {
+    width: 45%;
+    padding-left: 8%;
+    margin-top: 8rem;
+}
+.main .main_section2 .main_section2_content .main_section2_content_h1 p {
+    font-size: 4vw;
+    width: 63%;
+    text-align: right;
+    margin-left: 15%;
+    font-weight: bold;
+}
+
+.main .main_section2 .main_section2_content .main_section2_content_p {
+    width: 40%;
+    text-align: justify;
+    margin-top: 1em;
+
+}
+
+.main .main_section2 .main_section2_content .main_section2_content_p .main_section2_content_p_1 {
+    padding-bottom: 6em;
+}
+.main .main_section2 .main_section2_content .main_section2_content_p .main_section2_content_p_1 h2 {
+    line-height: 2.5em;
+}
+
+
+
+.main .main_section3{
+    width: 100%;
+    height: auto;
+    padding: 5em 0 ;
+
+    position: relative;
+}
+.main .main_section3 .main_section3_text {
+    width: 100%;
+    padding-bottom: 5em ;
+    text-align: center;
+}
+
+
+
+
+/* tách */
+.main .main_section3 .main_section3_farme {
+    width: 100%;
+
+    position: relative;
+    
+}
+.main .main_section3 .main_section3_farme .line{
+    width: 0.1em;
+    height: 112rem;
+    border-radius: 10%;
+    background-color: black;
+    margin-left: 2em;
+    padding-bottom: 50px;
+    left: 49%;
+    position: absolute;
+}
+/* Tách */
+.main .main_section3 .main_section3_farme .farme_content {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5em;
+    padding-top: 1.9em;
+    justify-content: space-evenly;
+}
+.main .main_section3 .main_section3_farme .farme_content .farme_content_time {
+    width: 30%;
+    text-align: right;
+    font-size: 1.5vw;
+}
+.main .main_section3 .main_section3_farme .farme_content .farme_content_text {
+    width: 30%;
+    background-color: #E3E3E3;
+    font-size: 1.2vw;
+    padding: 0.45em 1%;
+    box-shadow: 0px 0px 40px #E3E3E3;
+}
+.main .main_section3 .main_section3_farme .farme_content .farme_content_text p {
+    padding: 0.45em 0.9em;
+
+}
+.main .main_section3 .main_section3_farme .farme_content .farme_content_text img {
+    width: 100%;
+}
+/* JAVASCRIPTS */
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.5s;
+
+}
+
+.reveal.active {
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+
+
+.reveal2_1 {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.reveal2_1.active2_1 {
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.reveal2_2 {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: all 1s;
+
+
+}
+
+.reveal2_2.active2_2 {
+    position: relative;
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.reveal2_3 {
+    position: relative;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+    .reveal2_3.active2_3 {
+        position: relative;
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 400px ){
+    .main .main_section1{
+        width: 90%;
+        padding: 2em 0 ;
+    }
+    
+    .main .main_section1 .main_section1_text {
+        padding: 0em 0em 1em 0 ;
+        font-size: 2vw;
+    }
+    .main .main_section1 .main_section1_content{
+        margin-top: 1em;
+        flex-direction: column;
+    
+    }
+    .main .main_section1 .main_section1_content .main_section1_content_text {
+        width: 100%;
+        margin-top: 2em;
+        font-size: 2.3vw;
+        /* background-color: red; */
+    }
+    .main .main_section1 .main_section1_content .main_section1_content_text p {
+        margin-bottom: 1rem;
+    }
+    .main .main_section1 .main_section1_content .main_section1_content_text .kk {
+        font-weight: bold;
+    }
+    
+    .main .main_section1 .main_section1_content .main_section1_content_img {
+        width: 90%;
+        margin: 0 auto;
+        order: -1;
+    }
+    .main .main_section1 .main_section1_content .main_section1_content_img img {
+        width: 55%;
+    }
+
+
+
+    .main .main_section2 {
+        padding: 2rem 0 3rem ;
+    }
+    .main .main_section2 .main_section2_text{
+        padding: 1em 0 1em 0 ;
+        font-size: 3vw;
+    }
+    
+    .main .main_section2 .main_section2_content {
+        padding-top: 2em;
+        flex-direction: column;
+    }
+    
+    .main .main_section2 .main_section2_content .main_section2_content_h1 {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .main .main_section2 .main_section2_content .main_section2_content_h1 p {
+        font-size: 6vw;
+        text-align: center;
+    }
+    
+    .main .main_section2 .main_section2_content .main_section2_content_p {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 1em;
+    
+    }
+    
+    .main .main_section2 .main_section2_content .main_section2_content_p .main_section2_content_p_1 {
+        padding-bottom: 3em;
+    }
+    .main .main_section2 .main_section2_content .main_section2_content_p .main_section2_content_p_1 h2 {
+        line-height: 2.5em;
+        font-size: 4vw;
+    }
+    .main .main_section2 .main_section2_content .main_section2_content_p .main_section2_content_p_1 p {
+        font-size: 3.5vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .main .main_section3{
+        padding: 3em 0 ;
+    }
+    .main .main_section3 .main_section3_text {
+        padding-bottom: 3em ;
+    }
+    /* tách */
+    .main .main_section3 .main_section3_farme{
+        width: 100%;
+        /* background-color: red; */
+    }
+    .main .main_section3 .main_section3_farme .line{
+        width: 0.2em;
+        height: 280vw;
+        left: 1%;
+    }
+    /* Tách */
+    .main .main_section3 .main_section3_farme .farme_content {
+        margin-bottom: 2em;
+        margin-left: 15%;
+        padding-top: 2em;
+        flex-direction: column;
+        width: 85%;
+    }
+    .main .main_section3 .main_section3_farme .farme_content .farme_content_time {
+        width: 70%;
+        text-align: right;
+    }
+    .main .main_section3 .main_section3_farme .farme_content .farme_content_time {
+        order: -1;
+    }
+    .main .main_section3 .main_section3_farme .farme_content .farme_content_time p {
+        font-size: 3vw;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+    .main .main_section3 .main_section3_farme .farme_content .farme_content_text {
+        width: 70%;
+        background-color: #D8802A;
+        font-size: 1.2vw;
+        padding: 0.45em 1%;
+    }
+    .main .main_section3 .main_section3_farme .farme_content .farme_content_text p {
+        padding: 0.45em 0.9em;
+        font-size: 2.5vw;
+    }
+    .main .main_section3 .main_section3_farme .farme_content .farme_content_text img {
+        width: 100%;
+    }
+    
+}

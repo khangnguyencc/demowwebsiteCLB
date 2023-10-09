@@ -1,0 +1,49 @@
+table td {
+    border: 1px solid black;
+    padding: .3rem 2rem;
+    font-size: 1.2vw;
+}
+table {
+    border: 1px solid black;
+    width: 98%;
+    
+    margin: 0 auto;
+}
+.th_stt {
+    font-weight: bold;
+}
+.th_ten{
+    font-weight: bold;
+}
+.stt {
+    width: 5%;
+    text-align: center;
+}
+.container {
+    padding-top: 1rem;
+    width: 100%;
+}
+h2 {
+    margin-left: 1%;
+    font-size: 2vw;
+}
+* {
+    font-family:  sans-serif;
+}
+@media screen and (max-width: 400px ){
+    table td {
+        padding: .1rem 1rem;
+        font-size: 4vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    .th_stt {
+        font-size: 4.5vw;
+
+    }
+    .th_ten {
+        font-size: 4.5vw;
+        font-weight: bold;
+    }
+}

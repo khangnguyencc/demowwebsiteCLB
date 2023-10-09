@@ -1,0 +1,142 @@
+.header{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.header .header_section1{
+    width: calc(100%-8%);
+    height: auto;
+    padding: 1em 4%;
+
+    
+    
+}
+.header .header_section1 .header_section1_logo{
+    width: 8%;
+ 
+}
+.header .header_section1 .header_section1_logo img {
+    width: 100%;
+}
+
+.header .header_section2{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+.header .header_section2 ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: .7em 0;
+}
+.header .header_section2 ul li{
+    font-size: 1.4vw;
+    font-weight: bold;
+    padding: 0px 0;
+
+}
+
+.header .header_section2 ul li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: .5em 0;
+    
+    
+}
+.header .header_section2 ul li a::after{
+    content: "";
+    height: .4vw;
+    width: 0;
+    background-color: #489361;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition: all 1s;
+}
+
+.header .header_section2 ul li a:hover::after{
+    width: 50%;
+    transform: translateX(100%);
+}
+/* js */
+.thay_doi {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    background-color:#489361;
+    box-shadow: 0px 0px 40px gainsboro;
+    transition: all .2s ;
+    border: none;
+
+}
+.header .header_section2.thay_doi{
+    border: none;
+}
+.header .header_section2.thay_doi ul li {
+    padding-bottom: 0.2rem ;
+    transition: all 1s;
+}
+.header .header_section2.thay_doi ul li a {
+    color: white;
+
+}
+.header .header_section2.thay_doi ul li a::after{
+    background-color: white;
+}
+
+.header_section1_toggle {
+
+    text-align: right;
+    display: none;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 400px ){
+    .header .header_section2 ul {
+        flex-direction: column;
+        display: none;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    .header .header_section2 ul li {
+        padding: .5em;
+        font-size: .69em;
+    }
+    .header .header_section2 ul li a {
+        padding: .5em;
+
+    }
+    .header_section1_toggle{
+        display: block;
+        background-color: white;
+        
+    }
+    .header_section1_toggle i {
+        margin-top: 2rem;
+    }
+    .thay_doi {
+        display: none;
+    }
+    .header .header_section1 {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .header .header_section1 .header_section1_logo{
+        width: 17%;
+        padding: 0;
+
+     
+    }
+
+}
+
+

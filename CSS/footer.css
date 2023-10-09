@@ -1,0 +1,118 @@
+.footer {
+    width: auto;
+    height: auto;
+    background-color: #489361 ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 3em 5%;
+}
+
+.footer .footer_section1{
+    width: 29%;
+    height: auto;
+
+    background-color: #489361 ;
+
+
+    margin-left: 4rem;
+}
+
+.footer .footer_section1 img {
+    width: 50%;
+
+}
+
+
+.footer .footer_section1 .logo_nho {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    /* background-color: red; */
+}
+.footer .footer_section1 .logo_nho a{
+    width: 100%;
+}
+.footer .footer_section1 .logo_nho img{
+    width: 6%;
+    margin-right: 2%;
+    margin-top: 1em;
+}
+
+.footer .footer_section2{
+    width: 30%;
+    height: auto;
+    /* border: 1px solid beige; */
+
+}
+
+.footer .footer_section2 .ttinlh{
+    display: flex;
+    width: 100%;
+    margin-top: 2em;
+    font-size: 1.3vw ;
+}
+
+.footer .footer_section2 .ttinlh img {
+    width: 6%;
+    object-fit: contain;
+}
+
+.footer .footer_section2 .ttinlh .ttittnlh_ttinchitiet{
+    margin-left: 1em;
+
+}
+.footer .footer_section2 .ttinlh .ttittnlh_ttinchitiet h4 {
+    margin-bottom: .2em;
+}
+
+.footer .footer_section3 {
+    width: 30%;
+    height: auto;
+    font-size: 1.4vw;
+    /* border: 1px solid beige; */
+
+}
+.footer .footer_section3 ul {
+    margin-top: 2em;
+    padding-left: 30%;
+    line-height: 1.5;
+}
+.footer .footer_section3 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 400px ){
+    .footer{
+        /* flex-direction: column; */
+        padding: 2rem 2rem;
+
+    }
+
+    .footer .footer_section1 {
+        width: 40%;
+        margin-left: 0rem;
+    }
+    .footer .footer_section1 img{
+        width: 80%;
+    }
+    .footer .footer_section1 .logo_nho{
+        display: none;
+    }
+    .footer .footer_section2{
+        width: 60%;
+    }
+    .footer .footer_section2 .ttinlh .ttittnlh_ttinchitiet h4{
+        font-size: 2.5vw;
+        font-weight: bold;
+    }
+    .footer .footer_section2 .ttinlh .ttittnlh_ttinchitiet p{
+        font-size: 2.6vw;
+    }
+    .footer .footer_section3 {
+        display: none;
+    }
+}
+
