@@ -51,7 +51,7 @@
 }
 .main .main_section1 .main_section1_content .main_section1_content_img img {
     width: 70%;
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 
@@ -180,7 +180,19 @@
     opacity: 1;
 }
 
+.reveal_1 {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.5s;
 
+}
+
+.reveal_1.active_1 {
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+}
 
 
 .reveal2_1 {
@@ -233,11 +245,12 @@
     .main .main_section1{
         width: 90%;
         padding: 2em 0 ;
+        margin: 0 auto;
     }
     
     .main .main_section1 .main_section1_text {
         padding: 0em 0em 1em 0 ;
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .main .main_section1 .main_section1_content{
         margin-top: 1em;
@@ -247,7 +260,7 @@
     .main .main_section1 .main_section1_content .main_section1_content_text {
         width: 100%;
         margin-top: 2em;
-        font-size: 2.3vw;
+        font-size: 3vw;
         /* background-color: red; */
     }
     .main .main_section1 .main_section1_content .main_section1_content_text p {
@@ -264,6 +277,7 @@
     }
     .main .main_section1 .main_section1_content .main_section1_content_img img {
         width: 55%;
+        margin-left: 22.5%;
     }
 
 
@@ -309,23 +323,6 @@
         font-size: 3.5vw;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .main .main_section3{
         padding: 3em 0 ;
     }
@@ -339,7 +336,7 @@
     }
     .main .main_section3 .main_section3_farme .line{
         width: 0.2em;
-        height: 280vw;
+        height: 310vw;
         left: 1%;
     }
     /* Tách */
@@ -358,19 +355,19 @@
         order: -1;
     }
     .main .main_section3 .main_section3_farme .farme_content .farme_content_time p {
-        font-size: 3vw;
+        font-size: 4vw;
         margin-bottom: 1rem;
         text-align: left;
     }
     .main .main_section3 .main_section3_farme .farme_content .farme_content_text {
-        width: 70%;
-        background-color: #D8802A;
+        width: 80%;
+        background-color: #E3E3E3;
         font-size: 1.2vw;
         padding: 0.45em 1%;
     }
     .main .main_section3 .main_section3_farme .farme_content .farme_content_text p {
         padding: 0.45em 0.9em;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .main .main_section3 .main_section3_farme .farme_content .farme_content_text img {
         width: 100%;

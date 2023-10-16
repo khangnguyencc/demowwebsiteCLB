@@ -171,6 +171,49 @@
 
 }
 
+/* JAVASCRIPT */
+
+.reveal {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.reveal.active {
+    position: relative;
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.reveal_1 {
+    position: relative;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+.reveal_1.active_1 {
+    position: relative;
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.reveal_2 {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+.reveal_2.active_2 {
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+}
 
 @media screen and (max-width: 400px ){
     .main .main_h1 {

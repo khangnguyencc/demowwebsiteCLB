@@ -82,7 +82,30 @@
 .footer .footer_section3 ul li a {
     text-decoration: none;
     color: white;
+    position: relative;
+    padding: .3em 0;
 }
+
+
+/* SỬA */
+.footer .footer_section3 ul li a::after{
+    content: "";
+    height: .2vw;
+    width: 0;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition: all 1s;
+}
+
+.footer .footer_section3 ul li a:hover::after{
+    width: 50%;
+    transform: translateX(100%);
+}
+
+
+
 
 @media screen and (max-width: 400px ){
     .footer{

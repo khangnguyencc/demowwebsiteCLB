@@ -1,12 +1,26 @@
 window.addEventListener('scroll',reveal);
+window.addEventListener('scroll',reveal_1);
 window.addEventListener('scroll',reveal2_1);
 window.addEventListener('scroll',reveal2_2);
 window.addEventListener('scroll',reveal2_3);
 
+function reveal_1(){
+    var reveals = document.querySelectorAll('.reveal_1')
+
+for(var i = 0 ; i < reveals.length ; i++){
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 150
+
+    if(revealtop < windowheight- revealpoint){
+        reveals[i].classList.add('active_1');
+    }
+
+}
+}
 
 function reveal(){
     var reveals = document.querySelectorAll('.reveal')
-
 
 for(var i = 0 ; i < reveals.length ; i++){
     var windowheight = window.innerHeight;
@@ -16,9 +30,7 @@ for(var i = 0 ; i < reveals.length ; i++){
     if(revealtop < windowheight- revealpoint){
         reveals[i].classList.add('active');
     }
-    // else{
-    //     reveals[i].classList.remove('active');
-    // }
+
 }
 }
 
@@ -35,9 +47,7 @@ function reveal2_1(){
         if(revealtop < windowheight- revealpoint){
             reveal2_1[i].classList.add('active2_1');
         }
-        // else{
-        //     reveal2_1[i].classList.remove('active2_1');
-        // }
+
     }
 
 }
@@ -54,9 +64,6 @@ function reveal2_2(){
         if(revealtop < windowheight- revealpoint){
             reveal2_2[i].classList.add('active2_2');
         }
-        // else{
-        //     reveal2_2[i].classList.remove('active2_2');
-        // }
     }
 
 }
@@ -73,9 +80,6 @@ function reveal2_3(){
         if(revealtop < windowheight- revealpoint){
             reveal2_3[i].classList.add('active2_3');
         }
-        // else{
-        //     reveal2_3[i].classList.remove('active2_3');
-        // }
     }
 
 }

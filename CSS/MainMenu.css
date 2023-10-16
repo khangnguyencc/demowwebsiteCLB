@@ -164,7 +164,7 @@
     }
     .Main_Menu_Section_1 .Section_1_Text{
         width: 90%;
-        font-size: 2vw;
+        font-size: 3.5vw;
         padding: 2%;
         margin: 0 auto;
         text-align: justify;
@@ -173,7 +173,7 @@
         padding: 1em 1.5em;
         margin-top: 0.5em;
         border-radius: 2em;
-        font-size: 2vw;
+        font-size: 3vw;
 
     }
     .Main_Menu .Main_Menu_Container_2 {
@@ -189,7 +189,7 @@
         border-right: 1px solid black;
     }
     .Main_Menu .Main_Menu_Container_2_solieu h2 {
-        font-size:  8vw;
+        font-size:  9vw;
         -webkit-text-fill-color: white;
 
 
@@ -201,7 +201,7 @@
         width: 100%;
     }
     .Main_Menu .Main_Menu_Container_2_solieu_khac h2 {
-        font-size:  8vw;
+        font-size:  9vw;
         -webkit-text-fill-color: white;
 
     }
@@ -222,5 +222,6 @@
         margin: 0 auto;
         margin-top: 4em;
         text-align: center;
+        font-size: 4vw;
     }
 }

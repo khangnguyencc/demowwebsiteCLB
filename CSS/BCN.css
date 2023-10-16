@@ -119,7 +119,7 @@
         padding: 1em 0 2rem;
     }
     .Main_Menu .Team .Team_Text {
-        font-size: 1.8vw;
+        font-size: 3vw;
     }
     .Main_Menu .Team .Team_text_info {
         flex-direction: column;
@@ -139,7 +139,7 @@
     }
  
     .Main_Menu .Team .Team_text_info .Team_text_name h2 {
-        font-size: 2.5vw;
+        font-size: 4vw;
         padding-top: 1em;
     }
     .Main_Menu .Team .Team_text_info .Team_text_name p  {
@@ -147,7 +147,7 @@
 
     }
     .Main_Menu .members h1 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .Main_Menu .members .iframe {
         height: 25rem;

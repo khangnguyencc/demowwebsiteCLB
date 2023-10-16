@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sự kiện</title>
+    <link rel="shortcut icon" type="x-icon" href="/Images/Logo màu 2023.png" style="background-size: cover; ">
+
     <link rel="stylesheet" href="/CSS/sukien.css">
     <link rel="stylesheet" href="/CSS/header.css">
     <link rel="stylesheet" href="/CSS/footer.css">
+    <script src="/JS/sukien.js"></script>
     <script src="/JS/animation_header.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
@@ -48,7 +51,7 @@
         </div>
         
         <div class="main_container_1">
-            <div class="main_container_1_section_text">
+            <div class="main_container_1_section_text  reveal"data-aos="fade-up-right">
                 <h2>NẮNG TRAO TAY 2</h2>
                 <P>Trong những ngày hè rực nắng, CLB F-Volunteer của Trường Cao đẳng FPT Polytechnic Đà Nẵng đã có chuyến đi ý nghĩa đến thăm các bạn nhỏ tại Trung tâm bảo trợ nạn nhân chất độc màu da cam/dioxin và trẻ em bất hạnh – cơ sở 3.
 
@@ -56,14 +59,14 @@
                     </P>
                 <button><a href="sukiencon.html">Xem thêm</a></button>
             </div>
-            <div class="main_container_1_section_img">
+            <div class="main_container_1_section_img  reveal_1"data-aos="fade-up-left">
                 <img src="/Images/nangtraotay.jpg" alt="">
             </div>
         </div>
    
         <div class="line"></div>
 
-        <div class="main_container_2">
+        <div class="main_container_2 reveal_2">
             <div class="main_container_2_section_new">
                 <div class="main_container_2_section_new_1">
                     <div class="main_container_2_section_new_1_img">
@@ -153,4 +156,12 @@
     </div>
     
 </body>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+<script>
+    AOS.init({
+      duration: 3000,
+      once:true
+    });
+  </script> 
 </html>
